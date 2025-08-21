@@ -1,0 +1,64 @@
+PODS:
+  - Flutter (1.0.0)
+  - geolocator_apple (1.2.0):
+    - Flutter
+    - FlutterMacOS
+  - integration_test (0.0.1):
+    - Flutter
+  - mapbox_maps_flutter (2.11.0-beta.1):
+    - Flutter
+    - MapboxMaps (= 11.15.0-beta.3)
+    - Turf (= 4.0.0)
+  - MapboxCommon (24.15.0-beta.3):
+    - Turf (= 4.0.0)
+  - MapboxCoreMaps (11.15.0-beta.3):
+    - MapboxCommon (= 24.15.0-beta.3)
+  - MapboxMaps (11.15.0-beta.3):
+    - MapboxCommon (= 24.15.0-beta.3)
+    - MapboxCoreMaps (= 11.15.0-beta.3)
+    - Turf (= 4.0.0)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - Turf (4.0.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - geolocator_apple (from `.symlinks/plugins/geolocator_apple/darwin`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - mapbox_maps_flutter (from `.symlinks/plugins/mapbox_maps_flutter/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - MapboxCommon
+    - MapboxCoreMaps
+    - MapboxMaps
+    - Turf
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  geolocator_apple:
+    :path: ".symlinks/plugins/geolocator_apple/darwin"
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  mapbox_maps_flutter:
+    :path: ".symlinks/plugins/mapbox_maps_flutter/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  geolocator_apple: 66b711889fd333205763b83c9dcf0a57a28c7afd
+  integration_test: 252f60fa39af5e17c3aa9899d35d908a0721b573
+  mapbox_maps_flutter: 1bcad56dcdb35693f9fcee6947ceaf844d93191f
+  MapboxCommon: 6da8b52eab56e6d10dbfd6ddd7394c8c573ea03c
+  MapboxCoreMaps: 7b3fee4af5bb54dbfe9a8d0766f68b78f2b0b57f
+  MapboxMaps: d514a4e7db12faf8121008b4479d9316164f0d19
+  path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
+  Turf: c9eb11a65d96af58cac523460fd40fec5061b081
+
+PODFILE CHECKSUM: 4305caec6b40dde0ae97be1573c53de1882a07e5
+
+COCOAPODS: 1.16.2
